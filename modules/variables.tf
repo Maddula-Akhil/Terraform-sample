@@ -1,3 +1,6 @@
+variable "region" {}
+
+
 variable "ami" {
   type    = string
   default = "ami-00874d747dde814fa"
