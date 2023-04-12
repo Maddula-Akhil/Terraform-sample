@@ -1,10 +1,9 @@
 terraform {
   cloud {
-    organization = "prom-ttos"
+    organization = "Akhil-Organization"
 
     workspaces {
-      name = "cli-workspace"
+      name = "My-Personal-CLI-Workspace"
     }
   }
 }
-
