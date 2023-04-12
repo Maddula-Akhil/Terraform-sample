@@ -1,9 +1,12 @@
 terraform {
+  required_version = ">= 1.0"
+
   cloud {
     organization = "Akhil-Organization"
 
     workspaces {
-      name = "My-Personal-CLI-Workspace"
+      name = "my-cli-prod"
     }
   }
 }
+
